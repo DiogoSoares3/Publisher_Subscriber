@@ -30,7 +30,7 @@ def main(config_file):
     
     try:
         sub_socket.connect((broker_address["address"], broker_address["port"]))
-        sub_socket.sendall(b"subscriber")
+        sub_socket.sendall(b"subscriber") # Sending client type
         time.sleep(0.001)  # Preventing broker's recv to concatenate strings from the publisher's first and second "sendall"
         
         for topic in signed_topics:
