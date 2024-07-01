@@ -1,0 +1,7 @@
+{   
+    "broker_address": "localhost",
+    "broker_port": 4000,
+    "comments": [
+        {"topic": "Football", "content": "Real Madrid"} 
+    ]
+}

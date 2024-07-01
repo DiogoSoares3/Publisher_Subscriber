@@ -1,0 +1,8 @@
+{   
+    "broker_address": "localhost",
+    "broker_port": 4000,
+    "comments": [
+        {"topic": "Programming", "content": "programming is cool"},
+        {"topic": "Weather", "content": "it's 10 celsius degree"}
+    ]
+}

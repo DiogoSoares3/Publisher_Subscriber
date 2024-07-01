@@ -1,0 +1,13 @@
+{   
+    "subscriber_address": {
+        "address": "localhost", "port": 6001
+    },
+
+    "broker_address": {
+        "address": "localhost", "port": 4000
+    },
+
+    "signed_topics": [
+        "Programming"
+    ]
+}
