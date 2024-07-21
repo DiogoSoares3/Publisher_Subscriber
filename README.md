@@ -26,6 +26,10 @@ Publishers are those who produce comments on the social media platform, with eac
 
     - Publications and update requests should be made at random intervals of 1 to 2 seconds.
 
+### Supporting image
+
+![image](support_image.png)
+
 ### How to run the code
 
 You need to initialize at least 3 instances of terminals. One to run the broker, other to run one subscriber, and the other to run the producer. If you want to run more than one producer or subscriber, just open more terminal instances.
