@@ -36,17 +36,25 @@ Fom the root of the project:
     ```
     python3 broker/broker.py
     ```
-- Run one publisher:
+- Run one (or two) publisher(s):
     ```
     python3 publishers/publisher.py publishers/publisher1_config.json 
     ```
 
-    Note that json file in the second argument is the configuration file of publisher, if you want to run another publisher, just change this config file.
+    ```
+    python3 publishers/publisher.py publishers/publisher2_config.json 
+    ```
 
-- Run one subscriber:
+    Note that json file in the second argument is the configuration file of publisher.
+
+- Run one (or two) subscriber(s):
     ```
     python3 subscribers/subscriber.py subscribers/subscriber1_config.json
     ```
 
-    Like the publishers, the second argument is the configuration file of subscriber, if you want to run another subscriber, just change this config file.
+    ```
+    python3 subscribers/subscriber.py subscribers/subscriber3_config.json
+    ```
+
+    Like the publishers, the second argument is the configuration file of subscriber.
 
