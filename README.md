@@ -1,5 +1,9 @@
 # Implementation of a Pub/Sub Service Functioning as a Social Media Feed
 
+First of all, this was an optional assignment developed in the parallel and distributed programming subject (INE5645).
+
+### Project description
+
 Publishers are those who produce comments on the social media platform, with each comment associated with a topic. Subscribers are those interested in specific topics.
 
 - Each comment consists of text and is associated with a single topic.
